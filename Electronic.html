@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	<title>Electronic Dance</title>
+	<style>
+		body {background: #F2F2F2;}
+		section {width: 800px; margin: auto;}
+		#console {width: 1050px; height: 200px; margin-top: 30px; font-family: "Courier New"; background-color: #000; color: #31B404; padding: 5px; font-size: 0.9em; overflow-y: scroll;}
+	</style>
+</head>
+
+<body>
+	<section>
+		<canvas id="elec-container"></canvas>
+	</section>
+	<section id="console"></section>
+
+	<script src="CommonUtils.js"></script>
+	<script src="JSONReader.js"></script>
+	<script src="ElectronicDance.js"></script>
+	<script>
+		window.onload = function() {
+			var electronicDance = new ElectronicDance('elec-container');
+		}
+	</script>
+</body>
+</html>

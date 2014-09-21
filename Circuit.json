@@ -1,0 +1,41 @@
+{
+	"Name" : "typon",
+	"LineWidth" : "5",
+	"Circuit" : [
+		{
+			"Shape" : "Circle",
+			"Radius" : "4",
+			"Center" : {"x" : "10", "y" : "100"}
+		},
+		{
+			"Shape" : "Line",
+			"From": {"x" : "10", "y" : "102"},
+			"To" : {"x" : "10", "y" : "350"}
+		},
+		{
+			"Shape" : "Line",
+			"From": {"x" : "9", "y" : "349"},
+			"To" : {"x" : "50", "y" : "400"}
+		},
+		{
+			"Shape" : "Line",
+			"From" : {"x" : "49", "y" : "399"},
+			"To" : {"x" : "250", "y" : "399"}
+ 		},
+ 		{
+ 			"Shape" : "Circle",
+ 			"Radius" : "4",
+ 			"Center" : {"x" : "252", "y" : "399"}
+ 		},
+ 		{
+ 			"Shape" : "Circle",
+ 			"Radius" : "4",
+ 			"Center" : {"x" : "270", "y" : "399"}
+ 		},
+ 		{
+ 			"Shape" : "Line",
+ 			"From" : {"x" : "272", "y" : "399"}, 
+ 			"To" : {"x" : "400", "y" : "399"}
+ 		}
+	]
+}

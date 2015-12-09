@@ -1,1 +1,1 @@
-Un tout petit projet en javascript pour s'amuser.
+Un tout petit projet en vaniliaJS avec le framework Canvas pour s'amuser.
